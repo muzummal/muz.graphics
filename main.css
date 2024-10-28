@@ -305,6 +305,7 @@ img::selection {
 .image {
 	/**width: 100%; **/
 	max-width: 516 px;
+	width: 100%;
 	height: auto;
 	border-radius: 4px;
 	box-shadow: 0 4px 8px 2px rgba(0, 0, 0, 0.1);
