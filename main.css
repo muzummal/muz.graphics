@@ -13,6 +13,7 @@
 	--text-color: #171E20;
 	--baji-one: #D95284;
 	--baji-two: #81A691;
+	--nibib-one: #055594;
 	--recipe-one: #3C9472;
 	--lem-one: orange;
 }
@@ -286,6 +287,38 @@ img::selection {
 	padding-bottom: 2rem;
 }
 
+#nibib-projects h2::after {
+	content: '';
+	flex: 1;
+	margin-left: 1rem;
+	margin-top: 4px;
+	height: 6px;
+	background-color: var(--nibib-one);
+}
+#nibib-projects h3::before {
+	content: '|';
+	flex: 1;
+	color: var(--nibib-one);
+	text-shadow: 2px 0 var(--nibib-one);
+	font-weight: 900;
+	margin-right: 9px;
+	position: relative;
+	top: -1px;
+}
+#nibib-projects h4::before {
+	content: '|| ';
+	flex: 1;
+	color: var(--nibib-one);
+	font-weight: 900;
+	position: relative;
+	top: -1px;
+}
+#nibib-subtitle {
+	color: var(--nibib-one);
+	font-size: 1.5rem;
+	padding-bottom: 2rem;
+}
+
 #lem-projects h2::after {
 	content: '';
 	flex: 1;
@@ -391,12 +424,12 @@ img::selection {
 
 
 @media (min-width: 1650px)  and (pointer: fine) {
-	.project-tile:nth-child(-n+2) {
+	.project-tile {
 		grid-column: span 3;
 	}
-	.project-tile:nth-child(n+3) {
+	/* .project-tile:nth-child(n+3) {
 		grid-column: span 2;
-	}
+	} */
 	#navbar {
 		height: 100%;
 	}
