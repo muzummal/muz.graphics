@@ -1,162 +1,192 @@
-
 <!DOCTYPE html>
+
 <head>
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap"
+		rel="stylesheet">
 	<link rel="stylesheet" href="..\..\main.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.9.0/baguetteBox.min.css" />
+	<link rel="icon" type="image/x-icon" href="..\..\muz_icon.png">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.9.0/baguetteBox.min.js" async></script>
 	<title>Muz - NIBIB Redsign</title>
 
 </head>
+
 <body>
 	<nav id="navbar">
-		<!--<div id="pagetitle">
-			<a href="#">Muz Graphics About Me</a>
-		</div>-->
-      <ul>
-	    <li><a href="..\..\">Home</a></li>
-		<li><a href="..\..\about\about">About</a></li>
-		<!-- <li><a href="file:///E:/Project/muzummal.com%202.0/ui-ux.html">UI/UX</a></li>
-        <li><a href="file:///E:/Project/muzummal.com%202.0/design.html">Design</a></li> -->
-      </ul>
-    </nav>
-	<main id="main-doc">
-	
-		<!--<section id="about" class="a-section">
-		  <h1>About Me</h1>
-		</section>-->
-		<section id="container">
-			<section id="top">
-				<h1>National Institute of Biomedical Imaging and Bioengineering &mdash; Redesign</h1>
-				<p id="nibib-subtitle">A redesign project to update NIBIB's website with the U.S. Web Design System.</p>
-			</section>
-			<section class="projects" id="nibib-projects">
-		
-				<section class="project-grid">
-					<h2 id="overview" class="col-six">Overview</h2>
-					<div class="col-four">
-						<h3>Summary</h3>
-						<p>This project's purpose is primarily to familiarize myself with the U.S. Web Design System.</p>
-					</div>
-					<div class="col-four">
-						<h3>Key Challenge</h3>
-						<p>NIBIB's webpage is about 3-4 years old. Although they have implemented some elements from the USWDS,
+		<ul>
+			<li><a href="..\..\">home</a></li>
+			<li><a href="mailto:muzummal.t@gmail.com">muzummal.t@gmail.com</a></li>
+		</ul>
+	</nav>
+	<main id="nibib-projects">
+		<section id="intro">
+			<h1>NIBIB Website Redesign and Applying USWDS</h1>
+			<p id="nibib-subtitle">A redesign project to update NIBIB's website with the U.S. Web Design System.</p>
+			<img id="banner" class="col-six" src="img\nibib_banner.png" alt="array of example work for NIBIB" />
+		</section>
+		<section class="project-section" id="overview">
+			<section class="project-grid">
+				<h2 class="col-six">Overview</h2>
+				<div class="col-four">
+					<h3>Summary</h3>
+					<p>This project's purpose is primarily to familiarize myself with the U.S. Web Design System.</p>
+					<p>NIBIB's webpage is about 3-4 years old. Although they have implemented some elements from the
+						USWDS,
 						there are a few areas of improvement and better integration options.</p>
-					</div>
-					<div class="col-four">
-						<h3>Role</h3>
-						<p>Product Designer</p>
-						<ul class="list">
-							<li>Interaction</li>
-							<li>Visual Design</li>
-							<li>Prototyping</li>
-						</ul>
-					</div>
-					<div class="col-four">
-						<h3>Target</h3>
-						<p>Scientist/Research facilities</p>
-					</div>
-					
-					<h2 id="understand" class="col-six">Understand</h2>
-					<div class="col-four">
-						<h3>Research</h3>
-						<p>My research consisted of diving into the USWDS’s website. I wanted to understand their goals, process, and designs.
-						Learning how the design system operated together was interesting, but also looking at where I can adjust the webpage 
-						to make it more personal to NIBIB.</p>
-					</div>
-					<div class="col-four">
-						<h3>Competitive Audit</h3>
-						<p>I have looked at a few other websites already implementing the USWDS. It was actually where I started this project, 
-						because I was choosing which website I wanted to redesign. I saw how some websites used the system, and where they 
-						broke away in some areas to fit the needs of their organization.</p>
-					</div>
-					
-					<h2 id="product-design" class="col-six">Product Redesign</h2>
-					
-					<div class="col-four">
-						<p>The best way to get ideas out for the redesign was still wireframes. It allowed me to draw out how I felt the 
-						layout should be and mix and match ideas later in the process. I even referred to my drawings when creating the 
-						digital wireframes.</p>
-					</div>
-					
-					<div class="col-three">
-						<h3>Paper Wireframes</h3>
-						</br>
-						<h4>Home Page</h4>
-						<img class="vertimage" src="img\home_paperframe.jpg">
-						<h4>COVID-19 Page</h4>
-						<img class="vertimage" src="img\covid_paperframe.jpg">
-						<h4>Labs Page</h4>
-						<img class="vertimage" src="img\labs_paperframe.jpg">
-						<h4>Contact Page</h4>
-						<img class="vertimage" src="img\contact_paperframe.jpg">
-					</div>
-					
-					<div class="col-three">
-						<h3>Digital Wireframes</h3>
-						</br>
-						<h4>Home Page</h4>
-						<img class="image" src="img\home_digiframe.jpg">
-						<h4>COVID-19 Page</h4>
-						<img class="image" src="img\covid_digiframe.jpg">
-						<h4>Labs Page</h4>
-						<img class="image" src="img\labs_digiframe.jpg">
-						<h4>Contact Page</h4>
-						<img class="image" src="img\contact_digiframe.jpg">
-					</div>
-					
-					<div class="col-four">
-						<h3>Accessibility</h3>
-						<p>One of USWDS’s goal is to be more accessible. Therefore it has specific rules you have to follow. One of the pages I wanted to 
-						make was a page with a form, so I created a contact page where the user could fill out a form to contact NIBIB. I also kept other 
-						forms of contact, such as email, phone number, address, and links that provide detailed directions.</p>
-					</div>
-					
-					<h2 id="conclusion" class="col-six">Conclusion</h2>
-					<div class="col-four">
-						<h3>Take Away</h3>
-						<p>My takeaway is that a design system can be very helpful and can keep you organized. With a big organization such as NIH and all 
-						of it’s branches such as NIBIB, it is easy for the websites to look messy and unkempt. With the design system starting to take place, 
-						you can see all of the websites become more cohesive with a slight flair of their own.</p>
-						<p>I did not completely change everything, so it was not entirely a from-scratch project. I kept in mind that this layout and order 
-						was in place for a reason and chose to keep elements as close to their original location as possible. A lot of the things I have 
-						applied to NIBIB was a combination of the USWDS and from learning the standards of web design at NIEHS.</p>
-					</div>
-					<div class="col-six">
-						<h3>Final Design</h3>
-						<iframe class="figma-embed" src="https://embed.figma.com/proto/3t21wzfUIT66ae7wsqVa5W/Wireframe_NIBIB?node-id=23-155&node-type=frame&scaling=scale-down-width&content-scaling=fixed&page-id=23%3A154&starting-point-node-id=23%3A155&embed-host=share&hide-ui=1"
-						allowfullscreen></iframe>
-					</div>
-					<div class="col-four">
-						<h3>Next Steps</h3>
-						<p>The next step is to send NIBIB an email and show them areas they can improve and areas they have done well. Another next step I 
-						would like to take is to create a Web Design System of my own. I would also like to test the use of the website and how people use 
-						it so that I could be better prepared to update the designs.</p>
-					</div>
-					<div class="col-six spacer"></div>
-			
-				</section>
-		  
+				</div>
+				<div class="col-four nibib-card">
+					<h4>TOC/ Projects</h4>
+					<ul class="list">
+						<li><a href="#understand">Understand</a></li>
+						<li><a href="#product-design">Product Design</a></li>
+						<li><a href="#conclusion">Conclusion</a></li>
+					</ul>
+				</div>
+				<div class="col-four card-one">
+					<h4>Role</h4>
+					<p>UX/UI Designer, UX Research</p>
+				</div>
+				<div class="col-four card-one">
+					<h4>Tools & Technology</h4>
+					<p>Figma, USWDS</p>
+				</div>
 			</section>
 		</section>
-    
-	</main>
-	<!-- <div id="tocToggle">
+		<section class="project-section" id="understand">
+			<section class="project-grid">
+				<h2 id="understand" class="col-six">Understand</h2>
+				<div class="col-four">
+					<h3>Research</h3>
+					<p>My research consisted of diving into the USWDS’s website. I wanted to understand their goals,
+						process, and designs.
+						Learning how the design system operated together was interesting, but also looking at where I
+						can adjust the webpage
+						to make it more personal to NIBIB.</p>
+				</div>
+				<div class="col-four">
+					<h3>Competitive Audit</h3>
+					<p>I have looked at a few other websites already implementing the USWDS. It was actually where I
+						started this project,
+						because I was choosing which website I wanted to redesign. I saw how some websites used the
+						system, and where they
+						broke away in some areas to fit the needs of their organization.</p>
+				</div>
+			</section>
+		</section>
+		<section class="project-section" id="product-design">
+			<section class="project-grid">
+				<h2 id="product-design" class="col-six">Product Redesign</h2>
 
-    <input type="checkbox" />
-    
-    <span></span>
-    <span></span>
-    <span></span>
-    
-    <ul id="toc" class="list">
-		<li><a href="#overview">Overview</a></li>
-		<li><a href="#understand">Understand</a></li>
-		<li><a href="#product-design">Product Design</a></li>
-		<li><a href="#testing">Testing</a></li>
-		<li><a href="#refining">Refining</a></li>
-		<li><a href="#conclusion">Conclusion</a></li>
-    </ul>
-  </div> -->
+				<div class="col-four">
+					<h3>Wireframes</h3>
+					<p>The best way to get ideas out for the redesign was still wireframes. It allowed me to draw out
+						how I felt the
+						layout should be and mix and match ideas later in the process. I even referred to my drawings
+						when creating the
+						digital wireframes.</p>
+				</div>
+
+				<div class="col-three card-one">
+					<h4>Paper Wireframes</h4>
+					<div class="gallery gallery-two">
+						<a href="img\home_paperframe.jpg" class='item'>
+							<img class="image" src="img\home_paperframe.jpg">
+						</a>
+						<a href="img\covid_paperframe.jpg" class='item'>
+							<img class="image" src="img\covid_paperframe.jpg">
+						</a>
+						<a href="img\labs_paperframe.jpg" class='item'>
+							<img class="image" src="img\labs_paperframe.jpg">
+						</a>
+						<a href="img\contact_paperframe.jpg" class='item'>
+							<img class="image" src="img\contact_paperframe.jpg">
+						</a>
+					</div>
+				</div>
+				<div class="col-three card-one">
+					<h4>Digital Wireframes</h4>
+					<div class="gallery gallery-two">
+						<a href="img\home_digiframe.jpg" class='item'>
+							<img class="image" src="img\home_digiframe.jpg">
+						</a>
+						<a href="img\covid_digiframe.jpg" class='item'>
+							<img class="image" src="img\covid_digiframe.jpg">
+						</a>
+						<a href="img\labs_digiframe.jpg" class='item'>
+							<img class="image" src="img\labs_digiframe.jpg">
+						</a>
+						<a href="img\contact_digiframe.jpg" class='item'>
+							<img class="image" src="img\contact_digiframe.jpg">
+						</a>
+					</div>
+				</div>
+
+				<div class="col-four">
+					<h3>Accessibility</h3>
+					<p>One of USWDS’s goal is to be more accessible. Therefore it has specific rules you have to follow.
+						One of the pages I wanted to
+						make was a page with a form, so I created a contact page where the user could fill out a form to
+						contact NIBIB. I also kept other
+						forms of contact, such as email, phone number, address, and links that provide detailed
+						directions.</p>
+				</div>
+			</section>
+		</section>
+		<section class="project-section" id="conclusion">
+			<section class="project-grid">
+
+				<h2 id="conclusion" class="col-six">Conclusion</h2>
+				<div class="col-four">
+					<h3>Take Away</h3>
+					<p>My takeaway is that a design system can be very helpful and can keep you organized. With a big
+						organization such as NIH and all
+						of it’s branches such as NIBIB, it is easy for the websites to look messy and unkempt. With the
+						design system starting to take place,
+						you can see all of the websites become more cohesive with a slight flair of their own.</p>
+					<p>I did not completely change everything, so it was not entirely a from-scratch project. I kept in
+						mind that this layout and order
+						was in place for a reason and chose to keep elements as close to their original location as
+						possible. A lot of the things I have
+						applied to NIBIB was a combination of the USWDS and from learning the standards of web design at
+						NIEHS.</p>
+				</div>
+				<div class="col-six">
+					<h3>Final Design</h3>
+					<iframe class="figma-embed"
+						src="https://embed.figma.com/proto/3t21wzfUIT66ae7wsqVa5W/Wireframe_NIBIB?node-id=23-155&node-type=frame&scaling=scale-down-width&content-scaling=fixed&page-id=23%3A154&starting-point-node-id=23%3A155&embed-host=share&hide-ui=1"
+						allowfullscreen></iframe>
+				</div>
+				<div class="col-four">
+					<h3>Next Steps</h3>
+					<p>The next step is to send NIBIB an email and show them areas they can improve and areas they have
+						done well. Another next step I
+						would like to take is to create a Web Design System of my own. I would also like to test the use
+						of the website and how people use
+						it so that I could be better prepared to update the designs.</p>
+				</div>
+				<div class="col-six spacer"></div>
+
+			</section>
+		</section>
+		<section class="a-section" id="footer">
+			<section class="project-grid">
+				<div class="col-six">
+					<p id="reach">Want to know more about Muz?<br />Reach out!</p>
+					<p><a href="mailto:muzummal.t@gmail.com">muzummal.t@gmail.com</a></p>
+				</div>
+			</section>
+		</section>
+
+	</main>
+	<script>
+		window.addEventListener("load", function () {
+			baguetteBox.run(".gallery");
+		});
+	</script>
+
 </body>
+
 </html>

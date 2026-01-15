@@ -12,3 +12,11 @@ function changeTitle() {
         counter =0;
     }
 }
+
+window.addEventListener("load", function () {
+            baguetteBox.run(".gallery", {
+              captions: false,
+              buttons: "auto",
+              animation: "fadeIn",
+            });
+})

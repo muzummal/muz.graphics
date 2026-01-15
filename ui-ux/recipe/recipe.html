@@ -1,254 +1,312 @@
-
 <!DOCTYPE html>
+
 <head>
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap"
+		rel="stylesheet">
 	<link rel="stylesheet" href="..\..\main.css" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.9.0/baguetteBox.min.css" />
+	<link rel="icon" type="image/x-icon" href="..\..\muz_icon.png">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.9.0/baguetteBox.min.js" async></script>
 	<title>Muz - Recipe Box</title>
 
 </head>
+
 <body>
 	<nav id="navbar">
-		<!--<div id="pagetitle">
-			<a href="#">Muz Graphics About Me</a>
-		</div>-->
-      <ul>
-	    <li><a href="..\..\">Home</a></li>
-		<li><a href="..\..\about\about">About</a></li>
-		<!-- <li><a href="file:///E:/Project/muzummal.com%202.0/ui-ux.html">UI/UX</a></li>
-        <li><a href="file:///E:/Project/muzummal.com%202.0/design.html">Design</a></li> -->
-      </ul>
-    </nav>
-	<main id="main-doc">
-	
-		<!--<section id="about" class="a-section">
-		  <h1>About Me</h1>
-		</section>-->
-		<section id="container">
-			<section id="top">
-				<h1>Recipe Box &mdash; A Recipe Organzing App</h1>
-				<p id="recipe-subtitle">A recipe management app to help users organize, and share their recipes.</p>
-			</section>
-			<section  class="projects" id="recipe-projects">
-		
-				<section class="project-grid">
-					<h2 id="overview" class="col-six">Overview</h2>
-					<div class="col-four">
-						<h3>Summary</h3>
-						<p>Recipe Box is an app to help users organize their recipes, get their macros, get new ideas, and share with friends. 
-						The app’s ultimate purpose is organization of recipes, specifically for anyone who likes to cook and meal prep. Though 
-						the limitations would not end there and could be used for anyone looking for inspiration, learning to cook, or get 
+		<ul>
+			<li><a href="..\..\">home</a></li>
+			<li><a href="mailto:muzummal.t@gmail.com">muzummal.t@gmail.com</a></li>
+		</ul>
+	</nav>
+	<main id="recipe-projects">
+		<section id="intro">
+			<h1>Recipe Box Application Design Process</h1>
+			<p id="recipe-subtitle">A recipe management app to help users organize, and share their recipes.</p>
+			<img id="banner" class="col-six" src="img\recipe_banner.png" alt="array of example work for Recipe Box" />
+		</section>
+		<section class="project-section" id="overview">
+			<section class="project-grid">
+				<h2 id="" class="col-six">Overview</h2>
+				<div class="col-four">
+					<h3>Summary</h3>
+					<p>Recipe Box is an app to help users organize their recipes, get their macros, get new ideas,
+						and share with friends.
+						The app’s ultimate purpose is organization of recipes, specifically for anyone who likes to
+						cook and meal prep. Though
+						the limitations would not end there and could be used for anyone looking for inspiration,
+						learning to cook, or get
 						nutritional information.</p>
-					</div>
-					<div class="col-four">
-						<h3>Key Challenge</h3>
-						<p>Recipe Box needs to create a recipe management app that allows users to create, and share recipes with ease.</p>
-					</div>
-					<div class="col-four">
-						<h3>Role</h3>
-						<p>Product Designer</p>
-						<ul class="list">
-							<li>User Research</li>
-							<li>Interaction</li>
-							<li>Visual Design</li>
-							<li>Prototyping</li>
-							<li>Testing</li>
-						</ul>
-					</div>
-					<div class="col-four">
-						<h3>Target</h3>
-						<p>Home cooks</p>
-					</div>
-					
-					<h2 id="understand" class="col-six">Understand</h2>
-					<div class="col-four">
-						<h3>Research</h3>
-						<p>I started researching with interviews from a focus group. I asked people who are both professional and normal home cooks:</p>
-						<ul class="list">
-							<li>Do you Consider yourself a Food Enthusiast?</li>
-							<li>Do you use recipes, why or why not?</li>
-							<li>How do you save recipes that you like?</li>
-						</ul>
-						<h4>Pain Points</h4>
-						<ul class="list">
-							<li>Recipe yield increases can be difficult to calculate with lots of ingredients</li>
-							<li>Keeping track of nutrition can be a hassle with all the nutrient information, calorie intake, protein and carbs</li>
-							<li>Finding substitutes and where you can buy those substitutes</li>
-						</ul>
-					</div>
-					<div class="col-four">
-						<h3>Competitive Audit</h3>
-						<p>I looked at similar apps, and although they offer recipe management, they focused heavily on other goals or do not offer the 
-						extensive recipe management abilities. I want to create this app so the recipe’s come first. I feel this way creating recipes 
-						would be easier in comparison to other apps.</p>
-					</div>
-					
-					
-					
-					
-					
-					<div class="col-four">
-						<h3>Personas</h3>
-						<h4>Leslie</h4>
-						<p>Leslie loves her job and is a very organized person. Her organization allows her to get a lot done. She finds that recipes are a 
-						great way to keep consistency, but has a hard time making sure she is eating properly and finding substitutes either for dietary 
-						reasons or because of allergy concerns.</p>
-						<p><strong>Goals</strong></p>
-						<ul class="list">
-							<li>Wants to keep recipes in one location</li>
-							<li>Wants to easily understand nutritional information</li>
-						</ul>
-						<p><strong>Frustrations</strong></p>
-						<ul class="list">
-							<li>Not having recipes easily accessible</li>
-							<li>Not being able to find substitutes</li>
-						</ul>
-					</div>
-					<div class="col-four">
-						<h4>Demitree</h4>
-						<p>Demitree is a smart guy who learns fast. His goal in life is to be a concept artist, but falls on being a graphic designer in 
-						order to make money. Another goal that he is also focused on is staying in shape and building muscle mass. He understands working 
-						out, but nutrition can be more difficult.</p>
-						<p><strong>Goals</p></strong>
-						<ul class="list">
-							<li>Wants to keep track of protein intake</li>
-							<li>Working on bulking then cutting</li>
-						</ul>
-						<p><strong>Frustrations</p></strong>
-						<ul class="list">
-							<li>Not being able to get enough protein in a day</li>
-							<li>Recipe suggestions not personal</li>
-						</ul>
-					</div>
-					
-					<div class="col-four">
-						<h3>Insight</h3>
-						<p>A need to understand the nutritional breakdown of recipes is very important among users. Although creating a place to store recipes 
-						is the primary goal, a well read nutritional page is also going to be important to users.</p>
-					</div>
-					
-					<h2 id="product-design" class="col-six">Product Design</h2>
-					
-					<div class="col-four">
-						<p>The product is designed to store and create recipes so they are easy to access, but also provide a way to increase or decrease the 
-						yield results, serving size, and nutritional information. The main page would be a feed that would inspire the user to take recipes 
-						that have been shared with the public and make it their own. It also would encourage the user to dive in and create a recipe of their 
-						own. The colors of the design would give fresh food vibes with vibrant greens and oranges to promote an environment of health first.</p>
-					</div>
-					
-					<div class="col-three">
-						<h3>Paper Wireframes</h3>
-						<h4>Home Page Concept 1</h4>
-						<img class="vertimage" src="img\home_wireframe1.jpg">
-						<h4>Home Page Concept 2</h4>
-						<img class="vertimage" src="img\home_wireframe2.jpg">
-						<h4>Home Page Concept 3</h4>
-						<img class="vertimage" src="img\home_wireframe3.jpg">
-					</div>
-					
-					<div class="col-three">
-						<h3>Digital Wireframes</h3>
-						<h4>Home Page</h4>
-						<img class="vertimage" src="img\home_digwire.jpg">
-						<h4>Home Page Menu Opened</h4>
-						<img class="vertimage" src="img\home_digwire-openmenu.jpg">
-						<h4>Recipe page</h4>
-						<img class="vertimage" src="img\recipe_digwire.jpg">
-					</div>
-					
-					<h2 id="testing" class="col-six">Testing</h2>
-					<div class="col-four">
-						<h3>Usability Study</h3>
-						<p>When testing the users, I have supervised them in these tests to see if there were expectations that I did not expect. Also 
-						to see if some of the UI met the experience I was hoping for since I was trying a few things that felt new to me.</p>
-						<h4>Questions and Tasks</h4>
-						<ul class="list">
-							<li>
-								<p>What would you click to create a new recipe?</p>
-								<ul class="list">
-									<li>Would that be the process you normally take?</li>
-								</ul>
-							</li>
-							<li>Are the icons easily readable?</li>
-							<li>
-								<p>How would you see the nutritional information of a recipe you created?</p>
-								<ul class="list">
-									<li>Is there something you would like to see that would make it easier for organizing or creating recipes?</li>
-								</ul>
-							</li>
-						</ul>
-					</div>
-					<div class="col-four">
-						<h3>Results</h3>
-						<p>A mistake I had made was trying to create a lot more variation of pages than I needed to. For each saved recipe, I had tried 
-						to make an example of what it would look like. During the testing, I realized I couldn’t test all the features and needed to 
-						focus on testing one feature at a time before moving onto the next. I should have focused on creating recipes, organization, 
-						and nutritional information.</p>
-						<p>This is something I had corrected moving onto the hi-fi prototype. I’ve also added color to the hi-fi design to convey the 
-						vibe of a healthy environment and goals. I’ve included more animations to give a better feel of how the app would move and feel.</p>
-					</div>
-					
-					<h2 id="refining" class="col-six">Refining</h2>
-					<div class="col-four">
-						<h3>Mock Ups</h3>
-						<p>Prototyping helped me find a few issues I did not want to carry over to a hi-fi prototype. One thing that was noted to me 
-						was the users expected to see an edit button. Managing a recipe would be pointless if you could not edit the recipe itself.</p>
-						<p>Another point a user had made was there was no feedback when an action was made. Going forward, I would use animations in 
-						the lofi prototype only to show user feedback and focus less on creating more pages. I would keep the animations simple and 
-						refine those for the h-fi prototype.</p>
-					</div>
-					
-					<div class="col-four">
-						<h3>Accessibility</h3>
-						<p>I really wanted to focus on the sandwich menu with icons that made sense. However this will cause an accessibility issue if someone 
-						does not understand the icons. To counter this, I think a web based application would be helpful and accessibility options at initial 
-						setup of the application.</p>
-					</div>
-					
-					<h2 id="conclusion" class="col-six">Conclusion</h2>
-					<div class="col-four">
-						<h3>Take Away</h3>
-						<p>Going through the user testing on the mock ups allowed me to see the importance of user feedback. For a lo-fi prototype, it isn’t 
-						necessary to create all the pages, but the key features needed to get a better idea of what the application offers.</p>
-						<p>The process in testing and designing and refining allowed me to learn how I can make future tests easier for the user, to
-						keep accessibility in mind, and not to worry too much about the next step.</p>
-					</div>
-					<div class="col-four">
-						<h3>Final Design</h3>
-						<iframe class="figma-recipe-embed" src="https://embed.figma.com/proto/2LgZaPlFI2qz2EMdblrFrT/RecipeMGMT_Wireframe-2.0?node-id=1-3&node-type=canvas&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A3&embed-host=share&hide-ui=1" 
-						allowfullscreen></iframe>
-					</div>
-					<div class="col-four">
-						<h3>Next Steps</h3>
-						<p>My next steps would be to create and test the design for the key features such as an overview page of the recipes, nutrition 
-						page, and sharing recipes. I would also like to see a dark mode and how this design would translate into a web application.</p>
-					</div>
-					<div class="col-six spacer"></div>
-					
-			
-				</section>
-		  
+					<p>Recipe Box needs to create a recipe management app that allows users to create, and share
+						recipes with ease.</p>
+				</div>
+				<div class="col-four recipe-card">
+					<h4>TOC</h4>
+					<ul class="list">
+						<li><a href="#understand">Understand</a></li>
+						<li><a href="#product-design">Product Design</a></li>
+						<li><a href="#testing">Testing</a></li>
+						<li><a href="#reiterate">Reiterate</a></li>
+						<li><a href="#conclusion">Conclusion</a></li>
+					</ul>
+				</div>
+				<div class="col-four card-one">
+					<h4>Role</h4>
+					<p>UX/UI Designer, Graphic Designer, Brand Manager</p>
+				</div>
+				<div class="col-four card-one">
+					<h4>Tools & Technology</h4>
+					<p>Figma, Photoshop, Illustrator, CMS, HTML, CSS</p>
+				</div>
+				<div class="col-four card-one">
+					<h4>Target</h4>
+					<p>Home cooks, meal preppers, people with health goals</p>
+				</div>
 			</section>
 		</section>
-    
-	</main>
-	<!-- <div id="tocToggle">
+		<section class="project-section" id="understand">
+			<section class="project-grid">
+				<h2 id="" class="col-six">Understand</h2>
+				<div class="col-four">
+					<h3>Research</h3>
+					<p>I started researching with interviews from a focus group. I asked people who are both
+						professional and normal home cooks:</p>
+					<ul class="list">
+						<li>Do you Consider yourself a Food Enthusiast?</li>
+						<li>Do you use recipes, why or why not?</li>
+						<li>How do you save recipes that you like?</li>
+					</ul>
+				</div>
+				<div class="col-four card-two">
+					<h4>Pain Points</h4>
+					<ul class="list">
+						<li>Recipe yield increases can be difficult to calculate with lots of ingredients</li>
+						<li>Keeping track of nutrition can be a hassle with all the nutrient information, calorie
+							intake, protein and carbs</li>
+						<li>Finding substitutes and where you can buy those substitutes</li>
+					</ul>
+				</div>
+				<div class="col-four">
+					<h3>Competitive Audit</h3>
+					<p>I looked at similar apps, and although they offer recipe management, they focused heavily on
+						other goals or do not offer the
+						extensive recipe management abilities. I want to create this app so the recipe’s come first.
+						I feel this way creating recipes
+						would be easier in comparison to other apps.</p>
+				</div>
+				<div class="col-four">
+					<h3>Personas</h3>
+					<p>I disuscussed this topic with close friends and colleagues who were wililng
+						to help me with testing and research. I used the information I gathered to
+						create personas.
+					</p>
+				</div>
+				<div class="col-three card-two">
+					<h4>Leslie</h4>
+					<p>Leslie loves her job and is a very organized person. Her organization allows her to get a lot
+						done. She finds that recipes are a
+						great way to keep consistency, but has a hard time making sure she is eating properly and
+						finding substitutes either for dietary
+						reasons or because of allergy concerns.</p>
+					<p><strong>Goals</strong></p>
+					<ul class="list">
+						<li>Wants to keep recipes in one location</li>
+						<li>Wants to easily understand nutritional information</li>
+					</ul>
+					<p><strong>Frustrations</strong></p>
+					<ul class="list">
+						<li>Not having recipes easily accessible</li>
+						<li>Not being able to find substitutes</li>
+					</ul>
+				</div>
+				<div class="col-three card-two">
+					<h4>Demitree</h4>
+					<p>Demitree is a smart guy who learns fast. His goal in life is to be a concept artist, but
+						falls on being a graphic designer in
+						order to make money. Another goal that he is also focused on is staying in shape and
+						building muscle mass. He understands working
+						out, but nutrition can be more difficult.</p>
+					<p><strong>Goals</p></strong>
+					<ul class="list">
+						<li>Wants to keep track of protein intake</li>
+						<li>Working on bulking then cutting</li>
+					</ul>
+					<p><strong>Frustrations</p></strong>
+					<ul class="list">
+						<li>Not being able to get enough protein in a day</li>
+						<li>Recipe suggestions not personal</li>
+					</ul>
+				</div>
 
-    <input type="checkbox" />
-    
-    <span></span>
-    <span></span>
-    <span></span>
-    
-    <ul id="toc" class="list">
-		<li><a href="#overview">Overview</a></li>
-		<li><a href="#understand">Understand</a></li>
-		<li><a href="#product-design">Product Design</a></li>
-		<li><a href="#testing">Testing</a></li>
-		<li><a href="#refining">Refining</a></li>
-		<li><a href="#conclusion">Conclusion</a></li>
-    </ul>
-  </div> -->
+				<div class="col-four">
+					<h3>Insight</h3>
+					<p>A need to understand the nutritional breakdown of recipes is very important among users.
+						Although creating a place to store recipes
+						is the primary goal, a well read nutritional page is also going to be important to users.
+					</p>
+				</div>
+			</section>
+		</section>
+		<section class="project-section" id="product-design">
+			<section class="project-grid">
+				<h2 id="" class="col-six">Product Design</h2>
+
+				<div class="col-four">
+					<p>The product is designed to store and create recipes so they are easy to access, but also
+						provide a way to increase or decrease the
+						yield results, serving size, and nutritional information. The main page would be a feed that
+						would inspire the user to take recipes
+						that have been shared with the public and make it their own. It also would encourage the
+						user to dive in and create a recipe of their
+						own. The colors of the design would give fresh food vibes with vibrant greens and oranges to
+						promote an environment of health first.</p>
+				</div>
+				<h3 class="col-four">Wireframes</h3>
+				<div class="col-four card-one">
+					<h4>Paper Wireframes</h4>
+					<div class="gallery gallery-three">
+						<a href="img\home_wireframe1.jpg" class='item'>
+							<img class="image" src="img\home_wireframe1.jpg">
+						</a>
+						<a href="img\home_wireframe2.jpg" class='item'>
+							<img class="image" src="img\home_wireframe2.jpg">
+						</a>
+						<a href="img\home_wireframe3.jpg" class='item'>
+							<img class="image" src="img\home_wireframe3.jpg">
+						</a>
+					</div>
+				</div>
+				<div class="col-four card-one">
+					<h4>Digital Wireframes</h4>
+					<div class="gallery gallery-three">
+						<a href="img\home_digwire.jpg" class='item'>
+							<img class="image" src="img\home_digwire.jpg">
+						</a>
+						<a href="img\home_digwire-openmenu.jpg" class='item'>
+							<img class="image" src="img\home_digwire-openmenu.jpg">
+						</a>
+						<a href="img\recipe_digwire.jpg" class='item'>
+							<img class="image" src="img\recipe_digwire.jpg">
+						</a>
+					</div>
+				</div>
+			</section>
+		</section>
+		<section class="project-section" id="testing">
+			<section class="project-grid">
+				<h2 id="" class="col-six">Testing</h2>
+				<div class="col-four">
+					<h3>Usability Study</h3>
+					<p>When testing the users, I have supervised them in these tests to see if there were
+						expectations that I did not expect. Also
+						to see if some of the UI met the experience I was hoping for since I was trying a few things
+						that felt new to me.</p>
+				</div>
+				<div class="col-four card-two">
+					<h4>Questions and Tasks</h4>
+					<ul class="list">
+						<li>
+							<p>What would you click to create a new recipe?</p>
+							<ul class="list">
+								<li>Would that be the process you normally take?</li>
+							</ul>
+						</li>
+						<li>Are the icons easily readable?</li>
+						<li>
+							<p>How would you see the nutritional information of a recipe you created?</p>
+							<ul class="list">
+								<li>Is there something you would like to see that would make it easier for
+									organizing or creating recipes?</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				<div class="col-four">
+					<h3>Results</h3>
+					<p>A mistake I had made was trying to create a lot more variation of pages than I needed to. For
+						each saved recipe, I had tried
+						to make an example of what it would look like. During the testing, I realized I couldn’t
+						test all the features and needed to
+						focus on testing one feature at a time before moving onto the next. I should have focused on
+						creating recipes, organization,
+						and nutritional information.</p>
+					<p>This is something I had corrected moving onto the hi-fi prototype. I’ve also added color to
+						the hi-fi design to convey the
+						vibe of a healthy environment and goals. I’ve included more animations to give a better feel
+						of how the app would move and feel.</p>
+				</div>
+			</section>
+		</section>
+		<section class="project-section" id="reiterate">
+			<section class="project-grid">
+				<h2 id="" class="col-six">Reiterate</h2>
+				<div class="col-four">
+					<h3>Mock Ups</h3>
+					<p>Prototyping helped me find a few issues I did not want to carry over to a hi-fi prototype.
+						One thing that was noted to me
+						was the users expected to see an edit button. Managing a recipe would be pointless if you
+						could not edit the recipe itself.</p>
+					<p>Another point a user had made was there was no feedback when an action was made. Going
+						forward, I would use animations in
+						the lofi prototype only to show user feedback and focus less on creating more pages. I would
+						keep the animations simple and
+						refine those for the h-fi prototype.</p>
+				</div>
+
+				<div class="col-four">
+					<h3>Accessibility</h3>
+					<p>I really wanted to focus on the sandwich menu with icons that made sense. However this will
+						cause an accessibility issue if someone
+						does not understand the icons. To counter this, I think a web based application would be
+						helpful and accessibility options at initial
+						setup of the application.</p>
+				</div>
+			</section>
+		</section>
+		<section class="project-section" id="conclusion">
+			<section class="project-grid">
+				<h2 id="" class="col-six">Conclusion</h2>
+				<div class="col-four">
+					<h3>Take Away</h3>
+					<p>Going through the user testing on the mock ups allowed me to see the importance of user
+						feedback. For a lo-fi prototype, it isn’t
+						necessary to create all the pages, but the key features needed to get a better idea of what
+						the application offers.</p>
+					<p>The process in testing and designing and refining allowed me to learn how I can make future
+						tests easier for the user, to
+						keep accessibility in mind, and not to worry too much about the next step.</p>
+				</div>
+				<div class="col-four">
+					<h3>Final Design</h3>
+					<iframe class="figma-recipe-embed"
+						src="https://embed.figma.com/proto/2LgZaPlFI2qz2EMdblrFrT/RecipeMGMT_Wireframe-2.0?node-id=1-3&node-type=canvas&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=1%3A3&embed-host=share&hide-ui=1"
+						allowfullscreen></iframe>
+				</div>
+				<div class="col-four">
+					<h3>Next Steps</h3>
+					<p>My next steps would be to create and test the design for the key features such as an overview
+						page of the recipes, nutrition
+						page, and sharing recipes. I would also like to see a dark mode and how this design would
+						translate into a web application.</p>
+				</div>
+			</section>
+		</section>
+		<section class="a-section" id="footer">
+			<section class="project-grid">
+				<div class="col-six">
+					<p id="reach">Want to know more about Muz?<br />Reach out!</p>
+					<p><a href="mailto:muzummal.t@gmail.com">muzummal.t@gmail.com</a></p>
+				</div>
+			</section>
+		</section>
+	</main>
+	<script>
+		window.addEventListener("load", function () {
+			baguetteBox.run(".gallery");
+		});
+	</script>
 </body>
+
 </html>
