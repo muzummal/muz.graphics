@@ -241,6 +241,26 @@ img::selection {
 	}
 }
 
+/** Animations **/
+
+.hidden {
+  opacity: 0;
+  transform: translateY(50px) scale(.8);
+  transition:
+    opacity 2s ease-out,
+    transform 1s ease-out;
+}
+
+.reveal {
+  transition: opacity 1.5s ease, transform 1s ease;
+}
+
+.reveal.is-visible {
+  opacity: 1;
+  transform: translateY(0) scale(1);
+}
+
+
 /** Main Page **/
 .a-section {
 	display: flex;
@@ -382,6 +402,7 @@ img::selection {
 	width: 100%;
 	height: 450px;
 	border: 1px solid rgba(0, 0, 0, 0.5);
+	border-radius: 1rem;
 	margin-top: 1rem;
 	margin-bottom: 1rem;
 }
@@ -391,6 +412,7 @@ img::selection {
 	width: 360px;
 	height: 640px;
 	border: 1px solid rgba(0, 0, 0, 0.5);
+	border-radius: 1rem;
 	margin-top: 1rem;
 	margin-bottom: 1rem;
 }
@@ -821,6 +843,7 @@ img::selection {
 
 	.project-tile {
 		grid-column: span 6;
+
 		&>p {
 			padding-bottom: 1rem;
 		}

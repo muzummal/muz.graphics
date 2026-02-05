@@ -10,6 +10,7 @@
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.9.0/baguetteBox.min.css" />
 	<link rel="icon" type="image/x-icon" href="..\..\muz_icon.png">
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.9.0/baguetteBox.min.js" async></script>
+	<script src="..\..\index.js" defer></script>
 	<title>Muz - NIEHS</title>
 
 </head>
@@ -75,7 +76,7 @@
 						This option condenses special containers into call out boxes that reside in a column right of
 						the main content.</p>
 				</div>
-				<div class="col-three card-two">
+				<div class="col-three card-two hidden reveal">
 					<h4>Option 1</h4>
 					<div class="gallery gallery-two">
 						<a href="img\health-education-1.png" class='item'>
@@ -98,7 +99,7 @@
 						</a>
 					</div>
 				</div>
-				<div class="col-three card-two">
+				<div class="col-three card-two hidden reveal">
 					<h4>Option 2</h4>
 					<div class="gallery gallery-two">
 						<a href="img\health-education-2.png" class='item'>
@@ -144,7 +145,7 @@
 					</p>
 				</div>
 
-				<div class="col-five card-one">
+				<div class="col-five card-one hidden reveal">
 					<h3>CHORDS Software Options</h3>
 					<div class="gallery gallery-four">
 						<a href="img\chords_software_opt1.png" class='item'>
@@ -179,14 +180,14 @@
 						to find the SOP they needed.
 					</p>
 				</div>
-				<div class="col-four card-two">
+				<div class="col-four card-two hidden reveal">
 					<p><strong>Findings</strong> - We found that majority users would use the website's search engine,
 						bookmarks, or skip the
 						applications search feature to manually search through the list provided by the application.
 						This was often because they
 						already knew what they were looking for or the complete opposite.</p>
 				</div>
-				<div class="col-four card-two">
+				<div class="col-four card-two hidden reveal">
 					<p><strong>Pain Points</strong> - A big point for all users was not knowing when an SOP has been
 						updated. Even though we
 						had dates on the SOP of when it has been updated, users wanted the information to be more
@@ -194,7 +195,7 @@
 					<p>Another pain point we found was that some of the labels made sense to neither scientists nor
 						administrative roles.</p>
 				</div>
-				<div class="col-four niehs-card">
+				<div class="col-four niehs-card hidden reveal">
 					<p><strong>Solutions</strong> - The CMB SOP application was updated to include a marker of recently
 						updated SOPs. We also
 						updated the SOP pages to make the last date it was updated more apparent. Lastly, we implemented
@@ -210,11 +211,11 @@
 						tasks. Both scientists and
 						administrative role users under NIEHS would use the top task list.</p>
 				</div>
-				<div class="col-four card-two">
+				<div class="col-four card-two hidden reveal">
 					<p><strong>Findings</strong> - Users, old and new alike found a list of links to Top Tasks to be
 						frustrating and disorganized.</p>
 				</div>
-				<div class="col-four card-two">
+				<div class="col-four card-two hidden reveal">
 					<p><strong>Pain Points</strong> - For old users the issue was the name of the list items made no
 						sense. For example, the link
 						was a suggested action rather than where the link took you. Such as getting help with IT rather
@@ -227,7 +228,7 @@
 						through.
 					</p>
 				</div>
-				<div class="col-four niehs-card">
+				<div class="col-four niehs-card hidden reveal">
 					<p><strong>Solution</strong> - The solution to this problem was simple and elegant. First, all the
 						links were changed to the location
 						or application it led the user to. Second, the abbreviation was first followed by a dash and the
@@ -241,21 +242,21 @@
 					<p>The Recycle Guide was a requested application to help users properly recycle or dispose of waste.
 					</p>
 				</div>
-				<div class="col-four card-two">
+				<div class="col-four card-two hidden reveal">
 					<p><strong>Findings</strong> - The scientist who would use the recycling guide had requested an
 						application to help make it easier
 						to understand what to do with waste. This included the steps needed to take in order to dispose
 						or recycle and where to dispose
 						or recycle.</p>
 				</div>
-				<div class="col-four card-two">
+				<div class="col-four card-two hidden reveal">
 					<p><strong>Pain Points</strong> - Scientists were having a tough time knowing how and where to
 						recycle certain types of plastics
 						and glass. They also brought up not knowing how to dispose of items. There were also concerns
 						about different recycling instructions
 						depending on location as well as scientist roles and administrative roles.</p>
 				</div>
-				<div class="col-four niehs-card">
+				<div class="col-four niehs-card hidden reveal">
 					<p><strong>Solutions</strong> - When creating cards in the application, we had separated items that
 						cannot be recycled with items
 						that can be. To help with the pain points, we included how and where to dispose of items in the
@@ -279,12 +280,6 @@
 		</section>
 
 	</main>
-
-	<script>
-		window.addEventListener("load", function () {
-			baguetteBox.run(".gallery");
-		});
-	</script>
 </body>
 
 </html>
